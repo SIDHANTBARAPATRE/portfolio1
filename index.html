@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sidhant Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Poppins:wght@400;700&family=Ubuntu:wght@700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(2, 2, 27);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 50px;
+            background-color: rgb(16, 16, 68);
+        }
+
+        nav ul {
+            display: flex;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 25px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            text-decoration: none;
+            color: rgb(76, 66, 112);
+            font-size: 1.2rem;
+        }
+
+        .left {
+            font-size: 1.7rem;
+        }
+
+        .section1 {
+            display: flex;
+            justify-content: space-around;
+            margin: 50px 0px;
+        }
+
+        .section1>div {
+            width: 40%;
+        }
+
+        .section2 {
+            width: 30%;
+            font-size: 3rem;
+            margin: 100px 0 0 50px;
+        }
+
+        .section3 {
+            width: 30%;
+        }
+
+        .section3 img {
+            width: 80%;
+            margin: 50px 0;
+        }
+
+        .purple {
+            color: rgb(132, 132, 223);
+        }
+
+
+
+
+        .page2 {
+            max-width: 80vw;
+            margin: auto;
+        }
+
+        #element {
+            color: rgb(132, 132, 223);
+        }
+
+        main hr {
+            border: 0px;
+            height: 1.5px;
+            background-color: rgb(72, 72, 204);
+            margin: 100px 120px 40px;
+        }
+
+        .page2 h1 {
+            font-size: 2.3rem;
+        }
+
+        main .box {
+            width: 80vw;
+            height: 1.5px;
+            background-color: white;
+            margin: 40px 0px;
+            display: flex;
+
+        }
+
+        .page2 .box .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0px 127px;
+
+        }
+
+        .page2 .box .vertical .text {
+            position: relative;
+            top: 55px;
+            left: -25px;
+            font-size: 1.5rem;
+        }
+
+        .images {
+            position: relative;
+            top: -30px;
+            left: -14px;
+            width: 30px;
+        }
+
+        footer {
+            height: 223px;
+            background-color: rgb(68, 59, 59);
+        }
+
+        .footer {
+            margin-top: 223px;
+            display: flex;
+            justify-content: space-around;
+            padding: 23px 12px;
+        }
+
+        .footer>div {
+            width: 123px
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .copy {
+            text-align: center;
+            color: grey;
+        }
+
+        .btn .button {
+            background-color: #0c1645;
+            padding: 10px 10px;
+            border-radius: 15px;
+            border: 2px solid #475ecb;
+            cursor: pointer;
+            color: white;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <header>
+        <nav>
+            <div class="left">My Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Contact Me</a></li>
+                    <li><a href="">Links</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- first page -->
+    <main>
+        <section class="section1">
+            <div class="section2">Welcome...
+                <div>I am <span class="purple">Sidhant Barapatre</span></div>
+                <div>and I am a awesome</div>
+                <span id="element"></span>
+                <div class="btn">
+                    <button class="button">Download Resume</button>
+                    <button class="button">Github Profile</button>
+
+                </div>
+            </div>
+            <div class="section3"><img src="developer.png"></div>
+        </section>
+        <hr>
+        <!-- second page -->
+        <section class="page2">
+            <h1>My Skills</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="images" src="images/html.png">
+                    <div class="text">HTML</div>
+                </div>
+                <div class="vertical">
+                    <img class="images" src="images/css.png">
+                    <div class="text">CSS</div>
+                </div>
+                <div class="vertical">
+                    <img class="images" src="images/javascript.png">
+                    <div class="text">Javascript</div>
+                </div>
+                <div class="vertical">
+                    <img class="images" src="images/bootstrap.png">
+                    <div class="text">Bootstrap</div>
+                </div>
+                <div class="vertical">
+                    <img class="images" src="images/c++.png">
+                    <div class="text">c++</div>
+                </div>
+                <div class="vertical">
+                    <img class="images" src="images/python.png">
+                    <div class="text">Python</div>
+                </div>
+            </div>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Sidhant's Developer Portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Links</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Links</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Links</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy">
+            www.sidhantportfolio.com | All right reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer,', 'Programmer.'],
+            typeSpeed: 50,
+        });
+    </script>
+
+</body>
+
+</html>
